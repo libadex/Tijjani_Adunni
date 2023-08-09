@@ -54,7 +54,7 @@ img,
   text-align: center;
 }
 iframe {
-  border-radius: 0.625rem;
+  border-radius: 0.725rem;
   width: 100%;
   background-color: none;
 }
@@ -75,12 +75,16 @@ a:link {
   padding-bottom: 3px;
   pointer-events: none;
 }
-p .map {
-  font-size: 3.5rem;
-  color: #412016;
+.map {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: hsl(354, 89%, 45%);
+  text-decoration-color: red;
+  padding-top: 10px;
 }
 button {
-  background-color: #412016; /* Green */
+  background-color: #412016; 
   border: black
   color: white;
   padding: 15px 32px;
@@ -90,3 +94,38 @@ button {
   font-size: 16px;
   border-radius: 16px;
 }
+
+
+/* SMALL */
+@media screen and (min-width: 576px) {
+  body {
+   background-image: radial-gradient(#412016, #ac794c );
+  }
+  nav {
+    display: none;
+  }
+}
+/* MEDIUM */
+@media screen and (min-width: 768px) {
+  body {
+    background-image: radial-gradient(#412016, #ac794c;
+  }
+}
+/* LARGE */
+@media screen and (min-width: 992px) {
+  body {
+    background-image: radial-gradient(#412016, #ac794c);
+  }
+}
+/* EXTRALARGE */
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: radial-gradient(#412016, #ac794c);
+  }
+}
+
+/* MOBILE LANDSCAPE */
+@media screen and (min-height: 425px) and (min-aspect-ratio: 7/4) {
+  body {
+    background-image: radial-gradient(#412016, #ac794c);
+  }
