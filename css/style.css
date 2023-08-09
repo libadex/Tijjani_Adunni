@@ -14,6 +14,8 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   background-image: url(../img/Teejay\ Weddig\ IV\ 2.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 40%;
 }
 
 main {
@@ -28,8 +30,8 @@ main {
   padding: 1.25rem;
   border-radius: 0.625rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  margin-bottom: 2rem;
-  margin-top: 50%;
+  margin-bottom: 25px;
+  margin-top: 70%;
 }
 .container img {
   border-radius: 0.625rem;
@@ -37,12 +39,16 @@ main {
   width: 520px;
   max-height: 600px;
 }
-header h1 {
+header,
+img,
+.savedd {
   color: #412016;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 100px;
   text-align: center;
-  font-family: "Borel", cursive;
+  font-family: "Borel";
 }
 .container p {
   text-align: center;
@@ -59,7 +65,7 @@ iframe {
 a:link {
   color: rgb(202, 202, 206);
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .invitation {
   font-size: 16px;
@@ -70,6 +76,17 @@ a:link {
   pointer-events: none;
 }
 p .map {
-  font-size: 2em;
+  font-size: 3.5rem;
   color: #412016;
+}
+button {
+  background-color: #412016; /* Green */
+  border: black
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 16px;
 }
