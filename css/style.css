@@ -112,7 +112,7 @@ button {
   }
 }
 /* LARGE */
-@media screen and (min-width: 992px) {
+   @media screen and (min-width: 992px) {
   body {
     background-image: radial-gradient(#412016, #ac794c);
   }
